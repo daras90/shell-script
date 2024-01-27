@@ -1,6 +1,9 @@
 #! /bin/baash
 
-echo "Ramesh: hello Suresh good mornming"
-echo "Suresh: hi  Ramesh good mornming"
-echo "Ramesh: hello Suresh good mornming"
-echo "Sureshs: hello Ramesh good mornming"
+PERSON1=Ram
+PERSON2=Raheem
+
+echo "$PERSON1: hello $PERSON2 good mornming"
+echo "$PERSON2: hi $PERSON1 good mornming"
+echo "$PERSON1: hello $PERSON2 good mornming"
+echo "$PERSON2: hello $PERSON1 good mornming"
