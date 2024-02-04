@@ -11,3 +11,11 @@ else
 fi
 
 yum install mysql -y
+
+if [ $? -ne 0 ]
+then
+   echo "Error: Installing git is failed"
+   exit 1
+else
+   echo Installing Git is success"
+   fi
